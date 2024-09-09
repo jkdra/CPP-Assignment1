@@ -77,10 +77,10 @@ int main() {
                 searchBalance(balances, names, ids, 2, outFile);
                 break;
             case 3:
-                cout << "Sum of balances: " << sumAverage(balances, 3, outFile) << endl;
+                cout << "Sum of balances: $" << fixed << setprecision(2) << sumAverage(balances, 3, outFile) << endl;
                 break;
             case 4:
-                cout << "Average of balances: " << sumAverage(balances, 4, outFile) << endl;
+                cout << "Average of balances: $" << fixed << setprecision(2) << sumAverage(balances, 4, outFile) << endl;
                 break;
             case 5:
                 searchName(balances, names, ids, outFile);
