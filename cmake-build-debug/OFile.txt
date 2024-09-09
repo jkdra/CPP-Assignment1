@@ -1,0 +1,45 @@
+ * AUTHOR : Jawad Khadra
+ * STUDENT ID : 1312092 (IVC)
+ * ASSIGNMENT #1 : Functions & Arrays
+ * CLASS : CS1B
+ * SECTION : MW: 7:30p - 9:50p
+ * DUE DATE : August 23, 2024
+
+Larger Balance:
+ID #     NAME                     BALANCE DUE
+----     --------------------     -----------
+1002           Steve Woolston     $   1423.20
+1010        Florence Rousseau     $   1323.33
+1007             Pete McBride     $    500.32
+1004         Yolanda Agredano     $    356.00
+1009                Lisa Covi     $    332.35
+1005         Michele Rousseau     $     52.75
+1006            Sally Sleeper     $     32.36
+1008            Chris Carroll     $     32.35
+1001            Jean Rousseau     $     15.50
+1003              Don McBride     $     12.32
+
+Smaller Balance:
+ID #     NAME                     BALANCE DUE
+----     --------------------     -----------
+1003              Don McBride     $     12.32
+1001            Jean Rousseau     $     15.50
+1008            Chris Carroll     $     32.35
+1006            Sally Sleeper     $     32.36
+1005         Michele Rousseau     $     52.75
+1009                Lisa Covi     $    332.35
+1004         Yolanda Agredano     $    356.00
+1007             Pete McBride     $    500.32
+1010        Florence Rousseau     $   1323.33
+1002           Steve Woolston     $   1423.20
+
+Sum of balances for all persons:
+$    4080.48
+
+Average balance for all persons:
+$     408.05
+
+Search Name:
+ID #     NAME                     BALANCE DUE
+----     --------------------     -----------
+1002           Steve Woolston     $   1423.20
