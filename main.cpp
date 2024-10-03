@@ -26,11 +26,8 @@ using namespace std;
 int main() {
 
     // Variables
-    Member members[10];
-    string names[10];
-    int ids[10];
-    float balances[10];
-    fstream outFile;
+    Member members[10];  // IN - members of the game
+    fstream outFile;     // OUT - output file
 
     // Print the header on the console for now, while we wait for the output file
     cout
@@ -56,7 +53,7 @@ int main() {
     // Print the header on both the console and the output file
     printHeading(outFile);
 
-    int choice;
+    int choice;  // IN - user choice
     do {
         // Display menu
         cout << "\nMENU OPTIONS\n";

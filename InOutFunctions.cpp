@@ -11,7 +11,7 @@
  * This function will read in the input file and store the data in the parallel arrays.
  */
 void input(string& fileName, Member members[]) {
-    ifstream inFile(fileName);
+    ifstream inFile(fileName); // IN - file name
 
     // Check if the file opened successfully
     if (inFile.fail()) {
@@ -78,9 +78,9 @@ int searchBalance(Member members[], int findLargest, fstream& outFile) {
  * If not found, it will print that the name was not found, and input nothing to the output file.
  */
 int searchName(Member members[], fstream& outFile) {
-    string searchName;
-    bool found = false;
-    int index = -1;
+    string searchName;    // IN - name to search for
+    bool found = false;   // CALC - whether the name was found
+    int index = -1;       // OUT - index of the found name
 
     outFile << "\nSearch Name:\n"
             << "ID #     NAME                     BALANCE DUE\n"
@@ -121,7 +121,7 @@ int searchName(Member members[], fstream& outFile) {
  */
 float sumAverage(Member members[], int returnSum, fstream& outFile) {
 
-    float sum = 0;
+    float sum = 0;  // OUTPUT - sum of all balances
 
     for (int i = 0; i < 10; i++) sum += members[i].balance;
 
