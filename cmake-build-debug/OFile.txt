@@ -3,38 +3,20 @@
  * ASSIGNMENT #1 : Functions & Arrays
  * CLASS : CS1B
  * SECTION : MW: 7:30p - 9:50p
- * DUE DATE : August 23, 2024
+ * DUE DATE : October 2, 2024
 
-Larger Balance:
+Higher Balance:
 ID #     NAME                     BALANCE DUE
 ----     --------------------     -----------
 1002           Steve Woolston     $   1423.20
-1010        Florence Rousseau     $   1323.33
-1007             Pete McBride     $    500.32
-1004         Yolanda Agredano     $    356.00
-1009                Lisa Covi     $    332.35
-1005         Michele Rousseau     $     52.75
-1006            Sally Sleeper     $     32.36
-1008            Chris Carroll     $     32.35
-1001            Jean Rousseau     $     15.50
-1003              Don McBride     $     12.32
 
-Smaller Balance:
+Lower Balance:
 ID #     NAME                     BALANCE DUE
 ----     --------------------     -----------
 1003              Don McBride     $     12.32
-1001            Jean Rousseau     $     15.50
-1008            Chris Carroll     $     32.35
-1006            Sally Sleeper     $     32.36
-1005         Michele Rousseau     $     52.75
-1009                Lisa Covi     $    332.35
-1004         Yolanda Agredano     $    356.00
-1007             Pete McBride     $    500.32
-1010        Florence Rousseau     $   1323.33
-1002           Steve Woolston     $   1423.20
 
 Sum of balances for all persons:
-$    4080.48
+$    4080.53
 
 Average balance for all persons:
 $     408.05
@@ -43,18 +25,6 @@ Search Name:
 ID #     NAME                     BALANCE DUE
 ----     --------------------     -----------
 1002           Steve Woolston     $   1423.20
-
-Search Name:
-ID #     NAME                     BALANCE DUE
-----     --------------------     -----------
 1008            Chris Carroll     $     32.35
-
-Search Name:
-ID #     NAME                     BALANCE DUE
-----     --------------------     -----------
-1007             Pete McBride     $    500.32
-
-Search Name:
-ID #     NAME                     BALANCE DUE
-----     --------------------     -----------
-1001            Jean Rousseau     $     15.50
+1009                Lisa Covi     $    332.35
+1010        Florence Rousseau     $   1323.38

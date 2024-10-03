@@ -55,6 +55,18 @@ build CMakeFiles/Assignment1.dir/main.cpp.o: CXX_COMPILER__Assignment1_unscanned
   OBJECT_DIR = CMakeFiles/Assignment1.dir
   OBJECT_FILE_DIR = CMakeFiles/Assignment1.dir
 
+build CMakeFiles/Assignment1.dir/printHeading.cpp.o: CXX_COMPILER__Assignment1_unscanned_Debug /Users/jawadk/CLionProjects/CS1B/Assignment1/printHeading.cpp || cmake_object_order_depends_target_Assignment1
+  DEP_FILE = CMakeFiles/Assignment1.dir/printHeading.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Assignment1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Assignment1.dir
+
+build CMakeFiles/Assignment1.dir/InOutFunctions.cpp.o: CXX_COMPILER__Assignment1_unscanned_Debug /Users/jawadk/CLionProjects/CS1B/Assignment1/InOutFunctions.cpp || cmake_object_order_depends_target_Assignment1
+  DEP_FILE = CMakeFiles/Assignment1.dir/InOutFunctions.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Assignment1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Assignment1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Assignment1
@@ -63,7 +75,7 @@ build CMakeFiles/Assignment1.dir/main.cpp.o: CXX_COMPILER__Assignment1_unscanned
 #############################################
 # Link the executable Assignment1
 
-build Assignment1: CXX_EXECUTABLE_LINKER__Assignment1_Debug CMakeFiles/Assignment1.dir/main.cpp.o
+build Assignment1: CXX_EXECUTABLE_LINKER__Assignment1_Debug CMakeFiles/Assignment1.dir/main.cpp.o CMakeFiles/Assignment1.dir/printHeading.cpp.o CMakeFiles/Assignment1.dir/InOutFunctions.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/Assignment1.dir
   POST_BUILD = :
